@@ -1,12 +1,9 @@
 import './App.css'
+import Hero from './components/hero'
 
 function App() {
-
-
   return (
-    <h1 className="text-3xl font-bold underline red">
-    Hello world!
-    </h1>
+    <Hero/>
   )
 }
 
