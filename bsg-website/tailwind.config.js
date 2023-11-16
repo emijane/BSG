@@ -20,6 +20,9 @@ export default {
         '5xl': '3.052rem',
       },
       screens: {
+        'xs': '250px',
+        // => @media (min-width: 250px) { ... }
+
         'sm': '640px',
         // => @media (min-width: 640px) { ... }
   
@@ -45,6 +48,7 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 }
 
