@@ -9,6 +9,7 @@ export default {
       backgroundImage: {
         'hero': "url('/src/images/hero.png')",
         'stars': "url('/src/images/stars.png')",
+        'gameplay1': "url('/src/images/gameplay-1.png')",
       },
       fontSize: {
         sm: '0.8rem',

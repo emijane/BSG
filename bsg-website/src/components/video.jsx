@@ -2,8 +2,14 @@
 
 function Video () {
     return (
-    <div>
-        <iframe width="1160" height="715" src="https://www.youtube.com/embed/-bz-qDxRRcg?si=NCf9HTZZhUb4ULCI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div className="aspect-video max-w-6xl">
+        <iframe
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/FF3fuYLnApQ"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
     </div>
     )
   }

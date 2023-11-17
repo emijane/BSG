@@ -22,7 +22,7 @@ function Hero () {
           <div className="bg-hero bg-cover bg-center h-screen flex items-center justify-center relative z-0">
             <div className="text-white text-center max-w-2xl px-4">
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-orange-500 to-orange-200 inline-block text-transparent bg-clip-text">Black Sun Games</h1>
-              <p className="text-base md:text-lg lg:text-base opacity-90">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  magna aliqua. </p>
+              <p className="text-base md:text-lg lg:text-base opacity-90">Reach Beyond Reality!</p>
             </div>
           </div>
         </div>
