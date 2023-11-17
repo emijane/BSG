@@ -1,6 +1,7 @@
 {/* import ImageComponent from "./image-content";*/}
 import ImageComponent from "./image-content";
 import Video from "./video";
+import Carousel from "./carousel";
 
 {/* Star background component */}
 
@@ -35,6 +36,7 @@ function Stars () {
                 order="first" // or order="first"
             />
         </div>
+        <Carousel/>
     </div>
 </div>
 
