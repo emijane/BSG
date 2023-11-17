@@ -35,9 +35,9 @@ function Stars () {
                         imageUrl="./src/images/gameplay-3.png"
                         order="first" // or order="first"
                     />
-                    <Carousel/>
                 </div>
             </div>
+            <Carousel/>
         </div>
     )
   }
