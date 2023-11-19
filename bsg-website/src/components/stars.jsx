@@ -1,8 +1,8 @@
 {/* import ImageComponent from "./image-content";*/}
-import ImageComponent from "./image-content";
-import Video from "./video";
-import Carousel from "./carousel";
-import Projects from "./projects";
+import ImageComponent from "./image-content.jsx";
+import Video from "./video.jsx";
+import Carousel from "./carousel.jsx";
+import Projects from "./projects.jsx";
 import MobileImageComponent from "./mobile-image-content";
 {/* Star background component */}
 
