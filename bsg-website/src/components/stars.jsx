@@ -2,7 +2,8 @@
 import ImageComponent from "./image-content";
 import Video from "./video";
 import Carousel from "./carousel";
-
+import Projects from "./projects";
+import MobileImageComponent from "./mobile-image-content";
 {/* Star background component */}
 
 function Stars () {
@@ -37,6 +38,18 @@ function Stars () {
             />
         </div>
         <Carousel/>
+        <Projects/>
+        <div className='flex flex-col gap-20 xl:max-w-[60%] lg:max-w-[100%] sm:max-w-[100%] px-10'>
+            <MobileImageComponent
+                title="Our Mission"
+                titleColor="text-orange-400" // Customize the title color
+                description="We as designers, developers, and friends intend to create the best games possible, and strive to build upon an environment of strength and encouragement. We will do our best to create games that we enjoy playing, and hope to create masterpieces that others will love and enjoy using the best technology and people available to us in the process. Our only real mission is to create visions of our imagination, and have fun doing it. Feel free to support our creativity Via Patreon."
+                imageUrl="./src/images/poster.png"
+                order="first" // or order="last"
+                showButton={true} // Set to true to show the button
+                buttonText="Find us on Patreon" // Customize the button text
+                />
+        </div>
     </div>
 </div>
 
