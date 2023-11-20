@@ -22,19 +22,19 @@ function Stars () {
                     <ImageComponent
                         title="Far in the future Space Age"
                         description="Twist Boarders mount hover boards and spiral down a tube in space trying to avoid obstacles, and beat their best times!"
-                        imageUrl="../public/static/images/gameplay-1.png"
+                        imageUrl="../public/static/images/gameplay1.png"
                         order="first" // or order="first"
                     />
                     <ImageComponent
                         title="Start Off By Boosting Down the Track"                        
                         description="Use boost to increase your speed by using both triggers one on each hand. Try not to hit the rocks!"
-                        imageUrl="../public/static/images/gameplay-2.png"
+                        imageUrl="../public/static/images/gameplay2.png"
                         order="last" // or order="first"
                     />
                     <ImageComponent
                         title="Show Off Your Skills"
                         description="Set new Max Twists to an exhilarating soundtrack. Inspired by other sports vr games, this game is unlike any in the genre! "
-                        imageUrl="../public/static/images/gameplay-3.png"
+                        imageUrl="../public/static/images/gameplay3.png"
                         order="first" // or order="first"
                     />
                 </div>
