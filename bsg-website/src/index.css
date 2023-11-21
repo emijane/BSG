@@ -16,6 +16,10 @@ h3 {
   font-family: 'Dela Gothic One', sans-serif;
 }
 
+h2,h3 {
+  line-height: 42px !important;
+}
+
 p {
   font-family: 'Inter', sans-serif;
   line-height: 2rem!important;

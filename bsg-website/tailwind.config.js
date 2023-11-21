@@ -7,8 +7,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('/public/static/images/hero.png')",
-        'stars': "url('/public/static/images/stars.png')",
+        'hero': "url('src/images/hero.png')",
+        'stars': "url('src/images/stars.png')",
+      },
+      image: {
+        'gameplay1': "url('src/images/gameplay1.png')",
       },
       fontSize: {
         sm: '0.8rem',

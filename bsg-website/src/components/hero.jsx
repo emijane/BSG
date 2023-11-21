@@ -8,7 +8,7 @@ function Hero () {
           <nav className="absolute top-0 left-0 right-0 z-10 bg-transparent py-4 px-8 flex justify-between items-center">
             {/* Logo on the left */}
             <div className="text-white flex items-center">
-              <img src="../public/static/images/logo.webp" alt="Logo" className="h-24 w-28 object-contain" />
+              <img src="https://i.ibb.co/F5x2RMd/logo.webp" alt="Logo" className="h-24 w-28 object-contain" />
             </div>
             {/* Menu items on the right */}
             <ul className="flex space-x-5">

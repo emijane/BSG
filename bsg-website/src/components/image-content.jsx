@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const MobileImageComponent = ({ title, description, imageUrl, order, showButton, buttonText, titleColor }) => {
+const ImageComponent = ({ title, description, imageUrl, order, showButton, buttonText, titleColor }) => {
   return (
     <div className={`flex gap-12 items-center ${order === 'last' ? 'xs:flex-col-reverse lg:flex-row' : 'xs:flex-col lg:flex-row'}`}>
       <div className={`flex-1 ${order === 'last' ? 'order-first' : 'order-last'}`}>
@@ -17,7 +17,7 @@ const MobileImageComponent = ({ title, description, imageUrl, order, showButton,
   );
 };
 
-MobileImageComponent.propTypes = {
+ImageComponent.propTypes = {
   title: PropTypes.string.isRequired,
   titleColor: PropTypes.string,
   description: PropTypes.string.isRequired,
@@ -27,9 +27,9 @@ MobileImageComponent.propTypes = {
   buttonText: PropTypes.string,
 };
 
-MobileImageComponent.defaultProps = {
+ImageComponent.defaultProps = {
   showButton: false,
   buttonText: 'Default Button Text',
 };
 
-export default MobileImageComponent;
+export default ImageComponent;
