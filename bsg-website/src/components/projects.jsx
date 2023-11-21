@@ -1,10 +1,22 @@
 {/* Projects Component */}
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from 'react';
+
 function Projects () {
+  useEffect(() => {
+    AOS.init({
+      disable: 'phone',
+      duration: 700,
+      easing: 'ease-out-cubic',
+    });
+  }, []);
+
     return (
-      <div className='flex flex-col justify-center items-center'>
+      <div data-aos="fade-up" className='flex flex-col justify-center items-center'>
         <div className="max-w-2xl mx-auto text-center px-4">
-            <h2 className='text-white xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-10'>Upcoming VR Projects</h2>
+            <h2 className='text-orange-300 xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-10'>Upcoming VR Projects</h2>
             <p className='text-white md:text-lg lg:text-base opacity-80 mt-5'>Release Date: 4th Quarter 2023</p>
             <button className="bg-orange-500 hover:bg-orange-600 hover:-translate-y-1 transition ease-in-out delay-50 duration-300 font-semibold text-white py-3 px-5 rounded-full mt-3">Check us out on Steam!</button>
         </div>
