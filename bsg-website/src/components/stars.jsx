@@ -11,7 +11,7 @@ function Stars () {
     return (
         <div className="relative mt-[-1px]">
             {/* Stars background */}
-            <div className="bg-stars bg-cover bg-center relative z-0 bg-repeat flex flex-col justify-center gap-20 items-center min-h-screen pb-20"> {/* Updated this line */}
+            <div className="bg-[url('https://i.ibb.co/DgwTDWZ/stars.png')] bg-cover bg-center relative z-0 bg-repeat flex flex-col justify-center gap-20 items-center min-h-screen pb-20"> {/* Updated this line */}
                 <div className="max-w-2xl mx-auto text-center px-4">
                     <h2 className='text-white xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-10'>Featured Game: Max Twist</h2>
                     <p className='text-white md:text-lg lg:text-base opacity-80 mt-2'>Release Date: 4th Quarter 2023</p>
