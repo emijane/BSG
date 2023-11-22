@@ -14,7 +14,7 @@ function Video() {
   }, []);
 
     return (
-      <div>
+      <div className='mb-10'>
         <iframe data-aos="fade-up" className="max-w-full 
         w-[1280px] h-[720px] 
         xs:w-[600px] xs:h-[238px] 

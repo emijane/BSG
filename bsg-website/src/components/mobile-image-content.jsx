@@ -10,11 +10,14 @@ const MobileImageComponent = ({ title, description, imageUrl, order, showButton,
         <p className="text-white leading-9 mt-3 xs:text-center lg:text-left">{description}</p>
         <div className='xs:text-center lg:text-left'>
           {showButton && (
-            <button className="bg-orange-500 hover:bg-orange-600 hover:-translate-y-1 transition ease-in-out delay-50 duration-300 font-semibold text-white py-3 px-5 rounded-full mt-3">
-              {buttonText}
-            </button>
+            <a href="https://www.patreon.com/blacksungames" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-600 transition ease-in-out delay-50 duration-300">
+              <button className="bg-orange-500 hover:bg-orange-600 hover:-translate-y-1 transition ease-in-out delay-50 duration-300 font-semibold text-white py-3 px-5 rounded-full mt-3">
+                {buttonText}
+              </button>
+            </a>
           )}
         </div>
+
       </div>
       <div className="flex-1">
         <img className="xs:hidden lg:flex h-auto rounded-3xl" src={imageUrl} alt="Gameplay" />

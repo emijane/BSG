@@ -1,7 +1,7 @@
 {/* import ImageComponent from "./image-content";*/}
 import ImageComponent from "./image-content";
 import Video from "./video";
-import Carousel from "./carousel";
+import CarouselComponent from "./carousel";
 import Projects from "./projects";
 import MobileImageComponent from "./mobile-image-content";
 import Developers from "./developers";
@@ -22,14 +22,16 @@ function Stars() {
     return (
         <div className="relative mt-[-1px]">
             {/* Stars background */}
-            <div className="bg-[url('https://i.ibb.co/DgwTDWZ/stars.png')] bg-cover bg-center relative z-0 bg-repeat flex flex-col justify-center gap-20 items-center min-h-screen pb-20"> {/* Updated this line */}
-                <div data-aos="fade-up" className="max-w-2xl mx-auto text-center px-4">
+            <div className="bg-[url('https://i.ibb.co/DgwTDWZ/stars.png')] bg-repeat relative z-0 flex flex-col justify-center items-center min-h-screen pb-20">
+                <div data-aos="fade-up" className="max-w-2xl mx-auto text-center px-4 mb-20">
                     <h2 className='text-orange-300 xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-10'>Featured Game: Max Twist</h2>
                     <p className='text-white md:text-lg lg:text-base opacity-80 mt-4'>Release Date: 4th Quarter 2023</p>
-                    <button className="bg-orange-500 hover:bg-orange-600 hover:-translate-y-1 transition ease-in-out delay-50 duration-300 font-semibold text-white py-3 px-5 rounded-full mt-4">Check us out on Steam!</button>
+                    <a href="https://store.steampowered.com/app/1998310/Max_Twist/" target="_blank" rel="noopener noreferrer">
+                        <button className="bg-orange-500 hover:bg-orange-600 hover:-translate-y-1 transition ease-in-out delay-50 duration-300 font-semibold text-white py-3 px-5 rounded-full mt-3">Check us out on Steam!</button>
+                    </a>
                 </div>
                 <Video />
-                <div className='flex flex-col gap-20 xl:max-w-[75%] lg:max-w-[100%] sm:max-w-[100%] px-10'>
+                <div className='mb-20 mt-20 flex flex-col gap-20 xl:max-w-[75%] lg:max-w-[100%] sm:max-w-[100%] px-10 '>
                     <ImageComponent
                         title="Far in the future Space Age"
                         description="Twist Boarders mount hover boards and spiral down a tube in space trying to avoid obstacles, and beat their best times!"
@@ -49,9 +51,11 @@ function Stars() {
                         order="first" // or order="first"
                     />
                 </div>
-                <Carousel/>
+            </div>
+            <CarouselComponent/>
+            <div className="bg-[url('https://i.ibb.co/DgwTDWZ/stars.png')] bg-cover bg-center relative z-0 bg-repeat flex flex-col justify-center gap-20 items-center min-h-screen pb-20">
                 <Projects/>
-                <div data-aos="fade-up" className='flex flex-col gap-20 xl:max-w-[60%] lg:max-w-[100%] sm:max-w-[100%] px-10'>
+                <div data-aos="fade-up" className='mt-20 flex flex-col gap-20 xl:max-w-[60%] lg:max-w-[100%] sm:max-w-[100%] px-10'>
                     <MobileImageComponent
                         title="Our Mission"
                         titleColor="text-orange-300" // Customize the title color
