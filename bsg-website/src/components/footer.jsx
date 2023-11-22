@@ -24,17 +24,14 @@ function Footer () {
                     <input type="hidden" name="_gotcha" style={{ display: 'none' }} required />
                     <button 
                         type="submit" 
-                        className='bg-orange-500 hover:bg-orange-600 hover:-translate-y-1 transition ease-in-out delay-50 duration-300 font-semibold text-white py-3 px-5 rounded-full w-full xl:max-w-[30%] xs:max-w-full'
-                    >
-                        Send Message
-                    </button>
+                        className='bg-orange-500 hover:bg-orange-600 hover:-translate-y-1 transition ease-in-out delay-50 duration-300 font-semibold text-white py-3 px-5 rounded-full w-full xl:max-w-[30%] xs:max-w-full'>Send Message</button>
                 </form>
             </div>
             <div className='p-10 text-center mt-10'>
                 <p className='text-white'>© 2024 Black Sun Games LLC</p>
                 <p className='text-white'>Icons made by Black Sun Games LLC</p>
                 <p className='text-white'>Licensed by Black Sun Games LLC</p>
-                <p className='text-white'>Website designed and developed by Emma DeNunzio</p>
+                <p className='text-white'>Website designed and developed by <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/emmadenunzio/" className='hover:cursor underline hover:text-orange-400 transition ease-in-out delay-50'>Emma DeNunzio</a></p>
             </div>
         </div>
 
