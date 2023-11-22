@@ -53,7 +53,7 @@ function Stars() {
                 </div>
             </div>
             <CarouselComponent/>
-            <div className="bg-[url('https://i.ibb.co/DgwTDWZ/stars.png')] bg-cover bg-center relative z-0 bg-repeat flex flex-col justify-center gap-20 items-center min-h-screen pb-20">
+            <div className="bg-[url('https://i.ibb.co/DgwTDWZ/stars.png')] bg-repeat bg-center relative z-0  flex flex-col justify-center gap-20 items-center min-h-screen pb-20">
                 <Projects/>
                 <div data-aos="fade-up" className='mt-20 flex flex-col gap-20 xl:max-w-[60%] lg:max-w-[100%] sm:max-w-[100%] px-10'>
                     <MobileImageComponent
