@@ -21,7 +21,7 @@ function Video() {
         sm:w-[800px] sm:h-[450px]
         md:w-[1000px] md:h-[563px]
         lg:w-[1200px] lg:h-[675px]
-        px-10" src="https://www.youtube.com/embed/-bz-qDxRRcg?si=nsQPJHjFbkGgb8L-"></iframe>
+        px-10" src="https://www.youtube.com/embed/aVGDbs5v0Y4?si=VcpRD9TIwcPeydMm"></iframe>
       </div>
     )
   }

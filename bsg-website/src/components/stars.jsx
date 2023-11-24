@@ -35,19 +35,19 @@ function Stars() {
                     <ImageComponent
                         title="Far in the future Space Age"
                         description="Twist Boarders mount hover boards and spiral down a tube in space trying to avoid obstacles, and beat their best times!"
-                        imageUrl="https://i.ibb.co/MhjHCTg/gameplay1.png"
+                        imageUrl="https://i.ibb.co/7VMW9ns/gameplay1-1.png"
                         order="first" // or order="first"
                     />
                     <ImageComponent
                         title="Start Off By Boosting Down the Track"                        
                         description="Use boost to increase your speed by using both triggers one on each hand. Try not to hit the rocks!"
-                        imageUrl="https://i.ibb.co/r3ymwdY/gameplay2.png"
+                        imageUrl="https://i.ibb.co/YTcTLWy/gameplay2-1.png"
                         order="last" // or order="first"
                     />
                     <ImageComponent
                         title="Show Off Your Skills"
                         description="Set new Max Twists to an exhilarating soundtrack. Inspired by other sports vr games, this game is unlike any in the genre! "
-                        imageUrl="https://i.ibb.co/bKHC2Gt/gameplay3.png"
+                        imageUrl="https://i.ibb.co/2d8HmZH/gameplay3-1.png"
                         order="first" // or order="first"
                     />
                 </div>
@@ -60,7 +60,7 @@ function Stars() {
                         title="Our Mission"
                         titleColor="text-orange-300" // Customize the title color
                         description="We as designers, developers, and friends intend to create the best games possible, and strive to build upon an environment of strength and encouragement. We will do our best to create games that we enjoy playing, and hope to create masterpieces that others will love and enjoy using the best technology and people available to us in the process. Our only real mission is to create visions of our imagination, and have fun doing it. Feel free to support our creativity Via Patreon."
-                        imageUrl="https://i.ibb.co/T2f8Rc7/poster.png"
+                        imageUrl="https://i.ibb.co/qrjQ4MB/man-in-sleek-scifi-space-outfit-on-hoverboard-flying-at-great-speed-through-giant-tube-in-space-3353.png"
                         order="first" // or order="last"
                         showButton={true} // Set to true to show the button
                         buttonText="Find us on Patreon" // Customize the button text
