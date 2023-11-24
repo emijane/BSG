@@ -1,3 +1,5 @@
+{/* Mobile-image Component */}
+
 import PropTypes from 'prop-types';
 
 const MobileImageComponent = ({ title, description, imageUrl, order, showButton, buttonText, titleColor }) => {

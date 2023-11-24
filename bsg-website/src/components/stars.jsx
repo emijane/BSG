@@ -1,4 +1,5 @@
-{/* import ImageComponent from "./image-content";*/}
+{/* Stars Components (Stars background) */}
+
 import ImageComponent from "./image-content";
 import Video from "./video";
 import CarouselComponent from "./carousel";

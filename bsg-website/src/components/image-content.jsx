@@ -1,5 +1,6 @@
-import PropTypes from 'prop-types';
+{/* Image-Content Component */}
 
+import PropTypes from 'prop-types';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from 'react';

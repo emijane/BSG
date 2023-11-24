@@ -1,4 +1,5 @@
 {/* Footer Component */}
+import ContactForm from "./contact-form";
 
 function Footer () {
     return (
@@ -13,19 +14,7 @@ function Footer () {
                     <li className="text-white hover:text-orange-500 hover:-translate-y-1 transition ease-in-out delay-50 duration-300"><a href="https://www.patreon.com/blacksungames" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-patreon text-2xl"></i></a></li>
                 </ul>
                 </div>
-                <form 
-                    className='flex flex-1 flex-col gap-4 items-center mt-5 w-full'
-                    action="https://getform.io/f/728263a9-167f-416d-a856-dfdefdfc2403" 
-                    method="POST"
-                >
-                    <input className='rounded-xl p-4 w-full' type="text" placeholder='Name' name="name" required/>
-                    <input className='rounded-xl p-4 w-full' type="email" placeholder='E-mail' name="email" required />
-                    <input className='rounded-xl px-4 pb-12 w-full' type="text" placeholder='Message' name="message" required />
-                    <input type="hidden" name="_gotcha" style={{ display: 'none' }} required />
-                    <button 
-                        type="submit" 
-                        className='bg-orange-500 hover:bg-orange-600 hover:-translate-y-1 transition ease-in-out delay-50 duration-300 font-semibold text-white py-3 px-5 rounded-full w-full xl:max-w-[30%] xs:max-w-full'>Send Message</button>
-                </form>
+                <ContactForm/>
             </div>
             <div className='p-10 text-center mt-10'>
                 <p className='text-white'>© 2024 Black Sun Games LLC</p>
